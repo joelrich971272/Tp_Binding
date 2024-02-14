@@ -1,0 +1,55 @@
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Intellij" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="liberica-17" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+  <component name="UMLDiagramComponent">
+    <diagram name="astier1">
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.Application" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.In" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.LiaisonSerie" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.Main" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectSingleClassCommand" psi-class="com.astier.LiaisonSerie" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesCommand" />
+      <compartment-visibility>
+        <show-fields class="com.astier.LiaisonSerie" />
+        <show-methods class="com.astier.Main" />
+        <show-methods class="com.astier.LiaisonSerie" />
+        <show-methods class="com.astier.Application" />
+        <show-methods class="com.astier.In" />
+      </compartment-visibility>
+    </diagram>
+    <diagram name="astier2">
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.In" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.Main" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.Application" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.LiaisonSerie" />
+      <compartment-visibility />
+    </diagram>
+    <diagram name="astier">
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.Application" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.In" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.LiaisonSerie" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="com.astier.Main" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesCommand" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesCommand" />
+      <compartment-visibility />
+    </diagram>
+    <diagram name="astier4">
+      <compartment-visibility>
+        <show-fields class="com.astier.Main" />
+        <show-fields class="com.astier.LiaisonSerie" />
+        <show-fields class="com.astier.Application" />
+        <show-fields class="com.astier.In" />
+        <show-methods class="com.astier.Main" />
+        <show-methods class="com.astier.LiaisonSerie" />
+        <show-methods class="com.astier.Application" />
+        <show-methods class="com.astier.In" />
+      </compartment-visibility>
+    </diagram>
+  </component>
+</project>

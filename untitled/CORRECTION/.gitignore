@@ -1,0 +1,4 @@
+# Project exclude paths
+/Intellij/.gradle/
+/Intellij/build/
+/Intellij/build/classes/java/main/

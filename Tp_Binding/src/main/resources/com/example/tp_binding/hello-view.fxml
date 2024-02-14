@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<VBox fx:id="HelloController" alignment="CENTER" prefHeight="472.0" prefWidth="857.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tp_binding.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane id="largeur" prefHeight="200.0" prefWidth="200.0">
+      <children>
+         <TextField id="perimetre" fx:id="perimetre" layoutX="612.0" layoutY="43.0" />
+         <TextField id="surface" fx:id="surface" layoutX="612.0" layoutY="127.0" />
+         <Label layoutX="666.0" layoutY="100.0" text="Surface" />
+         <Label layoutX="660.0" layoutY="11.0" text="Perimetre" />
+         <TextField id="hauteur" fx:id="hauteur" layoutX="42.0" layoutY="19.0" />
+         <TextField id="largeur" fx:id="largeur" layoutX="42.0" layoutY="139.0" />
+         <Slider fx:id="slider_Hauteur" layoutX="21.0" layoutY="10.0" orientation="VERTICAL" prefHeight="65.0" prefWidth="14.0" />
+         <Slider fx:id="slider_Largeur" layoutX="21.0" layoutY="135.0" orientation="VERTICAL" prefHeight="59.0" prefWidth="14.0" />
+      </children>
+   </AnchorPane>
+   <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+</VBox>
