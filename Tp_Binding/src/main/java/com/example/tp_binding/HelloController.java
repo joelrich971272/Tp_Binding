@@ -13,6 +13,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.util.StringConverter;
 import javafx.util.converter.DoubleStringConverter;
@@ -33,6 +34,7 @@ public class HelloController implements Initializable {
     public TextField largeur;
     public TextField surface;
     public TextField perimetre;
+    public Circle circle;
 
 
     int seuille_hauteur = 1500;
@@ -64,7 +66,7 @@ public class HelloController implements Initializable {
         monRectangle.largeurProperty();
 
         perimetre.textProperty().bind(monRectangle.perimetreProperty().asString("% 2f m"));
-        surface.textProperty().bind(monRectangle.surfaceProperty().asString("% 2f m"));
+        surface.textProperty().bind(monRectangle.surfaceProperty().asString("% 2f m²"));
 
         Bindings.bindBidirectional(hauteur.textProperty(), monRectangle.hauteurProperty(),sc);
         Bindings.bindBidirectional(largeur.textProperty(),monRectangle.largeurProperty(),sc);
@@ -89,6 +91,7 @@ public class HelloController implements Initializable {
 
         Bindings.bindBidirectional(largeur.textProperty(),rectangle.widthProperty(),sc);
         Bindings.bindBidirectional(hauteur.textProperty(), rectangle.heightProperty(),sc);
+
 
 
     }
