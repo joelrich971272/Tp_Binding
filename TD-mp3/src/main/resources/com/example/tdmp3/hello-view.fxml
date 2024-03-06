@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -18,7 +19,23 @@
                 <Font name="Arial" size="14.0" />
             </font>
         </Label>
-      <Button fx:id="buttonPlay" layoutX="91.0" layoutY="288.0" mnemonicParsing="false" text="play" />
-      <Button fx:id="buttonStop" layoutX="338.0" layoutY="288.0" mnemonicParsing="false" text="stop" />
+      <Button fx:id="buttonPlay" layoutX="143.0" layoutY="220.0" mnemonicParsing="false" text="play" />
+      <Button fx:id="buttonStop" layoutX="300.0" layoutY="220.0" mnemonicParsing="false" text="stop" />
+      <Button fx:id="buttonLireTag" layoutX="217.0" layoutY="47.0" mnemonicParsing="false" text="Lire Tags" />
+      <Button fx:id="buttonModifier" layoutX="375.0" layoutY="47.0" mnemonicParsing="false" text="modifier" />
+      <TextField fx:id="textTitre" layoutX="26.0" layoutY="275.0" />
+      <TextField fx:id="textArtiste" layoutX="26.0" layoutY="323.0" />
+      <TextField fx:id="textAlbum" layoutX="26.0" layoutY="371.0" />
+      <TextField fx:id="textAnnee" layoutX="26.0" layoutY="419.0" />
+      <TextField fx:id="textCommentaire" layoutX="26.0" layoutY="461.0" />
+      <Label fx:id="labelTitre" layoutX="72.0" layoutY="258.0" text="Titre" />
+      <Label fx:id="labelArtiste" layoutX="72.0" layoutY="306.0" text="Artiste" />
+      <Label fx:id="labelAlbum" layoutX="72.0" layoutY="354.0" text="Album" />
+      <Label fx:id="labelAnnee" layoutX="72.0" layoutY="402.0" text="Année" />
+      <Label fx:id="labelCommentaire" layoutX="72.0" layoutY="444.0" text="Commentaires" />
+      <Label fx:id="labelGenre" layoutX="44.0" layoutY="501.0" text="Genre" />
+      <Label fx:id="labelTrack" layoutX="175.0" layoutY="501.0" text="Track" />
+      <TextField fx:id="textGenre" layoutX="22.0" layoutY="528.0" prefHeight="25.0" prefWidth="104.0" />
+      <TextField fx:id="textTrack" layoutX="143.0" layoutY="528.0" prefHeight="25.0" prefWidth="104.0" />
     </children>
 </AnchorPane>

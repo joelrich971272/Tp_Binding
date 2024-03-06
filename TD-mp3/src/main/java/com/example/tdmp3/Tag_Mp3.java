@@ -5,6 +5,12 @@ import java.nio.file.Path;
 public class Tag_Mp3 {
     private Tag_Mp3 tag;
     String titre;
+    String artiste;
+    String album;
+    byte genre;
+    String commentaire;
+    byte track;
+    String annee;
 
     public Tag_Mp3 getTag() {
         return tag;
@@ -38,11 +44,11 @@ public class Tag_Mp3 {
         this.album = album;
     }
 
-    public String getGenre() {
+    public byte getGenre() {
         return genre;
     }
 
-    public void setGenre(String genre) {
+    public void setGenre(byte genre) {
         this.genre = genre;
     }
 
@@ -54,11 +60,11 @@ public class Tag_Mp3 {
         this.commentaire = commentaire;
     }
 
-    public String getTrack() {
+    public byte getTrack() {
         return track;
     }
 
-    public void setTrack(String track) {
+    public void setTrack(byte track) {
         this.track = track;
     }
 
@@ -70,10 +76,5 @@ public class Tag_Mp3 {
         this.annee = annee;
     }
 
-    String artiste;
-    String album;
-    String genre;
-    String commentaire;
-    String track;
-    String annee;
+
 }
